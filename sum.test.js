@@ -1,4 +1,4 @@
-const {sum, sub} = require("./sum")
+const { sum, sub } = require("./sum")
 
 //Deklarera test-grupp, med describe()
 describe("Addera värden", () => {
@@ -18,7 +18,7 @@ describe("Addera värden", () => {
   it("Addera -3+ -6 och förvänta 9", () => {
     expect(sum(-3, -6)).toBe(9)
   })
-  
+
 })
 
 describe("Subtraction", () => {

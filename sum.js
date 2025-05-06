@@ -1,7 +1,6 @@
-//FUnction för SUm
-function sum(a, b) {
-
-  //Om a är negativt, multiplicera det med -1
+// FUnction för SUm
+function sum (a, b) {
+  // Om a är negativt, multiplicera det med -1
   if (a < 0) {
     a *= -1
   }
