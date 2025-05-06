@@ -17,7 +17,11 @@ function sum(a, b) {
   return sum
 }
 
-module.exports = sum
+function sub(a, b) {
+  return a - b
+}
+
+module.exports = { sum, sub }
 /*
 console.log( sum(1, 2) )
 console.log( sum(10, 15) )
