@@ -7,7 +7,7 @@ function sum (a, b) {
 
   //Om b är negativt, multiplicera det med -1
   if (b < 0) {
-    b *= -1
+    b *= 1
   }
     
   //Addera a och b
